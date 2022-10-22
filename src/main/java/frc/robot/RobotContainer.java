@@ -55,7 +55,7 @@ public class RobotContainer {
    */
   public Command getAutonomousCommand() {
     // An ExampleCommand will run in autonomous
-    return Timeauto;
+    return distanceAuto;
   }
   public static Joystick getJoy1(){
     return joy1;
